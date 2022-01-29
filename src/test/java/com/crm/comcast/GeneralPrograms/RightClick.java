@@ -40,6 +40,7 @@ public class RightClick {
 
 		System.out.println(driver.switchTo().window(child_window).getTitle());
 		}}
+		driver.close();
 
         driver.quit();
     }
